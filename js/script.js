@@ -17,6 +17,7 @@ function newItem(){
        alert("You must write something!");
      } else {
        $('#list').append(li);
+       $('#input').val('');
      }
   
   // Cross out an item from the list of items:'
